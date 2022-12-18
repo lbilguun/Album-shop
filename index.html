@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Album shop</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  
+   <link rel="stylesheet" href="style.css">
+
+
+   <link rel="Shortcut icon" type="x-icon" href="image/webicon.jpg">
+   
+</head>
+<body>
+   
+
+
+<section class="header">
+
+   <div class="flex">
+      <a href="#home" class="logo">Mongolian album shop</a>
+      <a href="#availability" class="btn">Захиалга өгөх</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+   <nav class="navbar">
+      <a href="#home">Нүүр</a>
+      <a href="#about">Тухай</a>
+      <a href="#gallery">Албумын сонголтууд</a>
+      <a href="#contact">Холбоо барих</a>
+      <a href="#reviews">Алдартай дуунууд</a>
+   </nav>
+
+</section>
+
+
+
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="box swiper-slide">
+            <img src="image/home1.jpg" alt="">
+            <div class="flex">
+               <h3>Vandebo</h3>
+               <a href="#availability" class="btn">Захиалах</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="image/home2.jpg" alt="">
+            <div class="flex">
+               <h3>Ginjin</h3>
+               <a href="#availability" class="btn">Захиалах</a>
+            </div>
+         </div>
+         <div class="box swiper-slide">
+            <img src="image/home3.jpg" alt="">
+            <div class="flex">
+               <h3>Mo'g</h3>
+               <a href="#availability" class="btn">Захиалах</a>
+            </div>
+         </div>
+         <div class="box swiper-slide">
+            <img src="image/home4.jpg" alt="">
+            <div class="flex">
+               <h3>Gangbay</h3>
+               <a href="#availability" class="btn">Захиалах</a>
+            </div>
+         </div>
+         <div class="box swiper-slide">
+            <img src="image/home5.jpg" alt="">
+            <div class="flex">
+               <h3>Indigo lemon</h3>
+               <a href="#availability" class="btn">Захиалах</a>
+            </div>
+         </div>
+         <div class="box swiper-slide">
+            <img src="image/home6.jpg" alt="">
+            <div class="flex">
+               <h3>Lil thug e</h3>
+               <a href="#availability" class="btn">Захиалах</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+
+
+
+
+<section class="availability" id="availability">
+
+   <form action="" method="post">
+      <div class="flex">
+         <div class="box">
+            <p>Захиалсан өдөр <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>Хүлээн авах өдөр <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>Хамтлаг дуучин <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="0">none</option>
+               <option value="1">Vandebo</option>
+               <option value="2">Lil thug e</option>
+               <option value="3">Ginjin</option>
+               <option value="4">Indigo lemon</option>
+               <option value="5">Gangbay</option>
+               <option value="6">Mo'G</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>Ширхэг <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0</option>
+               <option value="-">1</option>
+               <option value="-">2</option>
+               <option value="-">3</option>
+               <option value="-">4</option>
+               <option value="-">5</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="Захиалах" name="check" class="btn">
+   </form>
+
+</section>
+
+
+
+
+
+<section class="about" id="about">
+
+   <div class="row">
+      <div class="image">
+         <img src="image/home.2.webp" alt="">
+      </div>
+      <div class="content">
+        
+         <p>Дуу хөгжим хамгийн сайн тайвшируулах эм юм.</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/8JLAgQJGYQM" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <a href="#availability" class="btn">Захиалах</a>
+      </div>
+   </div>
+
+   <div class="row revers">
+      <div class="image">
+         <img src="image/home2.1.jpg" alt="">
+      </div>
+      <div class="content">
+         <p>Бидний хайрт ах, дүү, анд нөхөр Lil Thug E - ийн гэгээн дурсгалд зориулав…
+
+            Түүний дуу хоолой, авьяас чадвар, хийсэн бүтээлүүд нь түүнийг дэмжин сонсдог бүгдийн сэтгэлд үүрд дурсагдах биз ээ...
+            
+            Lil Thug E (Г. Төгөлдөр) 1991 - ♾️
+            </p>
+         <iframe width="560" height="315" 
+         src="https://www.youtube.com/embed/BSyZAUp0g3E" 
+         title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <a href="#contact" class="btn">Холбоо барих</a>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="image">
+         <img src="image/home2.2.webp" alt="">
+      </div>
+      <div class="content">
+         <p>Дуу авиаг цаг хугацааны хэмнэлтэйгээр зохион байрлуулсан урлагийг хөгжим гэдэг. </p>
+         <a href="#availability" class="btn">Захиалах</a>
+      </div>
+   </div>
+
+</section>
+
+
+
+
+
+<section class="services">
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="image/icon1.png" alt="">
+         <h3>Манай зорилго</h3>
+         <p>Дэлхийн одуудын цомогийг монголд албан ёсны эрхтэйгээр оруулах</p>
+      </div>
+
+      <div class="box">
+         <img src="image/icon2.png" alt="">
+         <h3>Манай давуу тал</h3>
+         <p>Маш хурдан чанартай баталгаат хүргэлттэй</p>
+      </div>
+   </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+   <div class="swiper gallery-slider">
+      <div class="swiper-wrapper">
+         <img src="image/slide1.jpg" class="swiper-slide" alt="">
+         <img src="image/slide2.jpg" class="swiper-slide" alt="">
+         <img src="image/slide3.jpg" class="swiper-slide" alt="">
+         <img src="image/slide4.jpg" class="swiper-slide" alt="">
+         <img src="image/slide5.jpg" class="swiper-slide" alt="">
+         <img src="image/slide6.jpg" class="swiper-slide" alt="">
+      </div>
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+
+
+
+
+<section class="contact" id="contact">
+
+   <div class="row">
+
+      <form action="" method="post">
+         <h3>Бидэнд мессеж илгээх хэсэг</h3>
+         <input type="text" name="name" required maxlength="50" placeholder="Таны нэр" class="box">
+         <input type="email" name="email" required maxlength="50" placeholder="Таны имэйл" class="box">
+         <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="Таны дугаар" class="box">
+         <textarea name="msg" class="box" required maxlength="1000" placeholder="Таны бичих хэсэг" cols="30" rows="10"></textarea>
+         <input type="submit" value="Илгээх" name="send" class="btn">
+      </form>
+
+      <div class="faq">
+         <h3 class="title">Түгээмэл асуултууд</h3>
+         <div class="box active">
+            <h3>Хаягаа буруу бичсэн тохиолдолд яаах вэ?</h3>
+            <p>Таны дугаарлуу залгаж лавлах болно.</p>
+         </div>
+         <div class="box">
+            <h3>Цагийн ажилтан авах уу?</h3>
+            <p>Манай үүд хаалга үргэлж нээлттэй байх болно.</p>
+         </div>
+         <div class="box">
+            <h3>Хүргэлтийн цагийн хуваарь?</h3>
+            <p>Манайх 24 цаг турш ажилдаг</p>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+<section class="reviews" id="reviews">
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+            <img src="image/Gangbay.jpg" alt="">
+            <h3>Gangbay - Gangan Tsagaan </h3>
+            <p>21,778,005 үзэлт  2020 оны 6-р сарын 11</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="image/Oz.jpg" alt="">
+            <h3>O.Z - Fall in Love</h3>
+            <p>16,921,215 үзэлт  2020 оны 11-р сарын 12</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="image/Vandebo.jpg" alt="">
+            <h3>Vandebo - Chinii Nudeer ft. Anir</h3>
+            <p>13,597,551 үзэлт  2020 оны 7-р сарын 10</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="image/Thunderz.jpg" alt="">
+            <h3>ThunderZ - Duurge ft. Alungoo </h3>
+            <p>14,560,422 үзэлт  2020 оны 9-р сарын 30</p>
+         </div>
+         
+         
+      </div>
+
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+
+
+
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i> +77880077</a>
+         <a href="tel:1112223333"><i class="fas fa-phone"></i> +99113582</a>
+         <a href="mailto:shakhanas@gmail.com"><i class="fas fa-envelope"></i> Albumshop942@gmail.com</a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i> Mongolia Ulaanbaatar</a>
+      </div>
+
+      <div class="box">
+         <a href="#home">Нүүр</a>
+      <a href="#about">Тухай</a>
+      <a href="#gallery">Албумын сонголтууд</a>
+      <a href="#contact">Холбоо барих</a>
+      <a href="#reviews">Алдартай дуунууд</a>
+      </div>
+
+      <div class="box">
+         <a href="https://www.facebook.com/">facebook <i class="fab fa-facebook-f"></i></a>
+         <a href="https://twitter.com/">twitter <i class="fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com/">instagram <i class="fab fa-instagram"></i></a>
+      </div>
+     
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
